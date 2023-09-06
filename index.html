@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./src/index.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card mb-3 p-0 p-md-3">
+      <div class="row g-0 row-cols-1 row-cols-md-2">
+        <div class="col order-2 order-md-1" id="content">
+          <div
+            class="card-body h-100 d-flex ps-lg-4 flex-column justify-content-evenly"
+          >
+            <div class="form-start">
+              <h1 class="card-title display-5">Stay updated!</h1>
+              <p class="card-text my-4">
+                Join 60,000+ product managers receiving monthly updates on:
+              </p>
+              <ul class="features list-unstyled">
+                <li>
+                  <img
+                    src="./assets/images/icon-list.svg"
+                    alt=""
+                    srcset=""
+                  />Product discovery and building what matters
+                </li>
+                <li>
+                  <img
+                    src="./assets/images/icon-list.svg"
+                    alt=""
+                    srcset=""
+                  />Measuring to ensure updates are a success
+                </li>
+                <li>
+                  <img
+                    src="./assets/images/icon-list.svg"
+                    alt=""
+                    srcset=""
+                  />And much more!
+                </li>
+              </ul>
+            </div>
+            <div class="form-end">
+              <form action="./success.html" method="get">
+                <div class="form-group">
+                  <div
+                    class="msgs d-flex justify-content-between align-items-center"
+                  >
+                    <label for="email" class="form-label fw-bold"
+                      >Email address</label
+                    >
+                    <h6 class="error fw-bold">Valid email required</h6>
+                  </div>
+
+                  <input
+                    placeholder=" email@company.com"
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control rounded-3 p-3 mb-4"
+                  />
+                </div>
+                <button
+                  role="button"
+                  type="submit"
+                  class="btn rounded-3 btn-dark w-100 p-3"
+                >
+                  Subscribe to monthly newsletter
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col order-1 order-md-2" id="image">
+          <img
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            class="img-fluid rounded-start d-block ms-auto"
+            id="desktop_image"
+          />
+          <img
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            class="img-fluid card-img-top card-img-bottom"
+            id="mobile_image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        style="color: white"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/Ed-Mo1"
+        style="color: white"
+        target="_blank"
+        >Eyad Muhammad</a
+      >.
+    </div>
+
+    <script src="./src/scrollreveal.js"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./src/success.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card p-2 p-md-5">
+      <div class="card-body d-flex flex-column">
+        <img
+          class="card-icon mb-5 mb-md-3"
+          src="./assets/images/icon-success.svg"
+        />
+        <h1 class="card-title display-5">Thanks for subscribing!</h1>
+        <p class="card-text mt-3">
+          A confirmation email has been sent to
+          <span id="email-name"></span> Please open it and click the button
+          inside to confirm your subscription.
+        </p>
+        <div class="h-100 align-items-end d-flex">
+          <a href="./index.html" class="btn rounded w-100 p-3"
+            >Dismiss message</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./src/scrollreveal.js"></script>
+    <script src="./src/success.js"></script>
+  </body>
+</html>
+<!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
